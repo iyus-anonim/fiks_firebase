@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActionActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/Unama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Nama"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/UAlamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/alamat"
+                android:inputType="textPersonName" />
+
+            <!--        <RadioGroup-->
+            <!--            android:id="@+id/RgStatus"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="wrap_content">-->
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/textView3"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="status" />-->
+
+            <!--            <RadioButton-->
+            <!--                android:id="@+id/RsMenikah"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Menikah" />-->
+
+            <!--            <RadioButton-->
+            <!--                android:id="@+id/RsLajang"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Lajang" />-->
+            <!--        </RadioGroup>-->
+
+            <!--        <RadioGroup-->
+            <!--            android:id="@+id/RgPekerjaan"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent">-->
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/textView4"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="pekerjaan" />-->
+
+            <!--            <RadioButton-->
+            <!--                android:id="@+id/RpPns"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="PNS" />-->
+
+            <!--            <RadioButton-->
+            <!--                android:id="@+id/RpWiraswasta"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Wiraswasta" />-->
+
+            <!--            <RadioButton-->
+            <!--                android:id="@+id/RpPelajar"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Pelajar" />-->
+
+            <!--        </RadioGroup>-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

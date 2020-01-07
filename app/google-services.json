@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "314781154112",
+    "firebase_url": "https://pendudukdata-ec1b6.firebaseio.com",
+    "project_id": "pendudukdata-ec1b6",
+    "storage_bucket": "pendudukdata-ec1b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314781154112:android:c18230489763ed0f9958a5",
+        "android_client_info": {
+          "package_name": "com.example.pendudukdata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314781154112-v1s0g738rtghhvnta809vb52s3l85dfg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pendudukdata",
+            "certificate_hash": "bc6d20028146ae6674e469c820c0354b308f1604"
+          }
+        },
+        {
+          "client_id": "314781154112-qmca61nesbiio3m4iorbarg1v3o903iv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPlypnBGZSjhB7cyO1v65NycW5H1ah8_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314781154112-qmca61nesbiio3m4iorbarg1v3o903iv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
